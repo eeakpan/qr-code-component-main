@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+
+- White: hsl(0, 0%, 100%) - Light gray: hsl(212, 45%, 89%) - Grayish blue: hsl(220, 15%, 55%) - Dark blue: hsl(218, 44%, 22%) 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Poppins', sans-serif;
+}
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+
+
+    border-radius: 10%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.card,
+h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+
+
+}
+
+p {
+    font-weight: 400;
+    font-size: small;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution, a {
+
+
+}
+
+.attribution, a:hover { text-decoration: none; color:rgb(70, 70, 191); }
+.attribution, a:visited { text-decoration: none; color: rgb(70, 70, 191); }
